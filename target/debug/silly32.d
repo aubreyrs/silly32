@@ -1,0 +1,1 @@
+C:\Users\me\Documents\Rust\silly32\target\debug\silly32.exe: C:\Users\me\Documents\Rust\silly32\src\cpu.rs C:\Users\me\Documents\Rust\silly32\src\instruction.rs C:\Users\me\Documents\Rust\silly32\src\main.rs
