@@ -68,6 +68,9 @@ impl Silly32 {
                 self.memory[self.registers[r2] as usize] = self.registers[r1];
                 println!("STOREMEM: MEM[R{}] = R{}", r2, r1);
             }
+            Opcode::Sex => {
+                println!("SEX");
+            }
             Opcode::Unknown => panic!("Unknown instruction: {:#X}", instruction),
         }
 

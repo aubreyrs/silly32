@@ -8,6 +8,7 @@ pub enum Opcode {
     JumpIfZero,
     LoadMem,
     StoreMem,
+    Sex,
     Unknown,
 }
 
@@ -22,6 +23,7 @@ impl From<i32> for Opcode {
             0x06 => Opcode::JumpIfZero,
             0x07 => Opcode::LoadMem,
             0x08 => Opcode::StoreMem,
+            0x09 => Opcode::Sex,
             _ => Opcode::Unknown,
         }
     }
