@@ -6,6 +6,7 @@ use cpu::Silly32;
 fn main() {
     let mut cpu = Silly32::new(256);
     let program = vec![
+        0x09000000,
         0x0101000A,
         0x01020014,
         0x03010300,
